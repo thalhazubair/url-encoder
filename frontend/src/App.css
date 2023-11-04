@@ -1,0 +1,17 @@
+.animation-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: all 0.5s ease;
+}
+
+.animate h1 {
+  transform: translateY(-50vh);
+}
+
+.animate p,
+.animate button {
+  opacity: 0;
+}
